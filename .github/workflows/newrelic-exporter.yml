@@ -24,4 +24,4 @@ jobs:
       - name: Export to New Relic
         uses: newrelic-experimental/gha-new-relic-exporter@v1.0.6
         env:
-          OTEL_EXPORTER_OTLP_ENDPOINT: https://otlp.eu01.nr-data.net:4318
+          NEW_RELIC_REGION: EU
